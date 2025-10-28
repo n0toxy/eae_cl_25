@@ -13,7 +13,8 @@ class MaClasse:
     def direbonjour(self):
         return f"Bonjour, je suis {self.nom} et j'ai {self.age*self.parametretest()} ans!"
 
-
+    def direbonjoura(self,nom):
+        return f"Bonjour {nom}, je suis {self.nom}"
 
 if __name__ == "__main__":
     main()
@@ -21,3 +22,4 @@ if __name__ == "__main__":
     b = MaClasse("Bob",58)
     print(a.direbonjour())
     print(b.direbonjour())
+    print(b.direbonjoura("chuck"))
