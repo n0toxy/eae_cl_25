@@ -22,4 +22,4 @@ if __name__ == "__main__":
     b = MaClasse("Bob",58)
     print(a.direbonjour())
     print(b.direbonjour())
-    print(b.direbonjoura("chuck"))
+    print(b.direbonjoura("chuckd"))
