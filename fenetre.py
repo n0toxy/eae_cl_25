@@ -14,7 +14,7 @@ def toggle_message():
     else:
         msg_param.config(text="Option désactivée ❌", fg="red")
 
-# --- Fenêtre principale ---
+# --- Fenêtre principaleeee ---
 fenetre = tk.Tk()
 fenetre.title("Application multi-onglets")
 fenetre.geometry("500x300")
